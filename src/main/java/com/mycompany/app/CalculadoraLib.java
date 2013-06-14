@@ -1,4 +1,4 @@
-package lib;
+package main.java.com.mycompany.app;
 import org.apache.log4j.Logger;
 
 

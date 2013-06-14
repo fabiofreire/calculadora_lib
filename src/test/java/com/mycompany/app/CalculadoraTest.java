@@ -1,4 +1,5 @@
-package lib;
+package test.java.com.mycompany.app;
+import main.java.com.mycompany.app.CalculadoraLib;
 import junit.framework.TestCase;
 
 
