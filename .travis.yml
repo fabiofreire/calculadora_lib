@@ -3,3 +3,7 @@ language: java
 after_success:
   - git tag "$((TRAVIS_JOB_ID - 1))" && git push https://fabiofreire:$t39Ihj7t&@github.com/fabiofreire/calculadora_lib.git --tags
   - mvn site
+  
+notifications:
+  email:
+    on_success: never
