@@ -1,2 +1,2 @@
 language: java
-ant build-project
+install: ant build-project
