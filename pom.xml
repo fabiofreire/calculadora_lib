@@ -5,7 +5,7 @@
   <artifactId>CalcLib</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>my-app</name>
+  <name>CalcLib</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -39,8 +39,8 @@
         <version>0.6</version>
         <configuration>
           <message>Creating site for ${project.version}</message>
-          <repositoryName>my-app</repositoryName>
-          <repositoryOwner>rafaelkin</repositoryOwner>
+          <repositoryName>calculadora_lib</repositoryName>
+          <repositoryOwner>fabiofreire</repositoryOwner>
         </configuration>
         <executions>
           <execution>
