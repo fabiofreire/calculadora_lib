@@ -6,23 +6,23 @@ public class CalculadoraLib {
 
 	static Logger log4j = Logger.getLogger("test");
 	
-	public double soma(double a, double b) {
+	public int soma(int a, int b) {
 		log4j.warn("Low fuel level.");
 		return a + b;
 	}
 
 
-	public double subtracao(double a, double b) {
+	public int subtracao(int a, int b) {
 		return a - b;
 	}
 
 
-	public double multiplicacao(double a, double b) {
+	public int multiplicacao(int a, int b) {
 		return a * b;
 	}
 
 
-	public double divisao(double a, double b) {
+	public int divisao(int a, int b) {
 		return a / b;
 	}
 }
