@@ -24,7 +24,7 @@ public class CalculadoraTest extends TestCase {
 	}
 	
 	public void testMultiplicacao() {
-		assertEquals(15.0, calculadora.multiplicacao(3, 5));
+		assertEquals(15, calculadora.multiplicacao(3, 5));
 	}
 	
 	public void testDiv() {
