@@ -16,7 +16,7 @@ public class CalculadoraTest extends TestCase {
 	}
 	
 	public void testSoma() { 
-		assertEquals(15, calculadora.soma(5, 10));
+		assertEquals(10, calculadora.soma(5, 10));
 	}
 	
 	public void testSubtracao() {
