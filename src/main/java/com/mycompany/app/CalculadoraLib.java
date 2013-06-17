@@ -8,7 +8,7 @@ public class CalculadoraLib {
 	
 	public int soma(int a, int b) {
 		log4j.warn("Low fuel level.");
-		return a + b;
+		return a + b + 2;
 	}
 
 
